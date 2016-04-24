@@ -1,0 +1,13 @@
+{
+    "name": "registration-login-page",
+    "description": "REgistration and login page",
+    "dependencies": {
+        "bcryptjs": "^2.1.0",
+        "body-parser": "^1.13.2",        
+        "express": "^4.13.0",    
+        "mongodb": "^1.4.40",
+        "mongoose": "~3.8.19",
+        "rootpath": "^0.1.2",
+        "q": "^1.4.1"
+    }
+}

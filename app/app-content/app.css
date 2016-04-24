@@ -1,0 +1,69 @@
+﻿body {
+    padding: 20px 0;
+}
+
+.flash-message {
+    margin-top: 20px;
+}
+
+
+/*Menu icon css*/
+.nav-toggle{
+	position: relative;
+	width: 30px;
+	height: 30px;
+}
+.nav-toggle span{
+	margin-top: 6px;
+}
+span,
+span:before,
+span:after {
+  background-color: #333;
+  height: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(7px);
+  transition: all 0.5s ease;
+  width: 25px;
+}
+
+span:before,
+span:after {
+  content: '';
+  transform: translateY(0);
+}
+
+.hamburger span:before {
+  transform: translateY(7px);
+}
+.hamburger span:after {
+  transform: translateY(-7px);
+}
+
+.arrow-right span {
+  transform: rotate(-180deg) translateY(-7px) translateX(0);
+}
+.arrow-right span:before, .arrow-right span:after {
+  width: 15px;
+}
+.arrow-right span:before {
+  transform: rotate(45deg) translateY(14px) translateX(-8px);
+}
+.arrow-right span:after {
+  transform: rotate(-45deg) translateY(-14px) translateX(-8px);
+}
+
+.arrow-left span {
+  transform: rotate(180deg) translateY(-7px) translateX(0);
+}
+.arrow-left span:before, .arrow-left span:after {
+  width: 15px;
+}
+.arrow-left span:before {
+  transform: rotate(-45deg) translateY(6px) translateX(0);
+}
+.arrow-left span:after {
+  transform: rotate(45deg) translateY(-6px) translateX(0);
+}
